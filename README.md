@@ -328,7 +328,7 @@ kubectl apply -f config/crd/bases/batch.schwarzeni.github.com_imoocpods.yaml
 # Deploy CRD instance
 ```yaml
 # config/samples/batch_v1alpha1_imoocpod.yaml
-apiVersion: batch.schwarzeni.github.com/v1alpha1
+apiVersion: batch.wangxin311.github.com/v1alpha1
 kind: ImoocPod
 metadata:
   name: imoocpod-sample
