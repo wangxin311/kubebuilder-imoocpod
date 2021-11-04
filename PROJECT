@@ -1,0 +1,16 @@
+domain: wangxin311.github.com
+layout:
+- go.kubebuilder.io/v3
+projectName: kubebuilder-imoocpod
+repo: github.com/wangxin311/kubebuilder-imoocpod
+resources:
+- api:
+    crdVersion: v1
+    namespaced: true
+  controller: true
+  domain: wangxin311.github.com
+  group: batch
+  kind: ImoocPod
+  path: github.com/wangxin311/kubebuilder-imoocpod/api/v1alpha1
+  version: v1alpha1
+version: "3"
