@@ -323,7 +323,7 @@ replicaset.apps/kubebuilder-controller-manager-94fb7f557   1         1         1
 ```
 # Apply CRD
 ```bash
-kubectl apply -f config/crd/bases/batch.schwarzeni.github.com_imoocpods.yaml
+kubectl apply -f config/crd/bases/batch.wangxin311.github.com_imoocpods.yaml
 ```
 # Deploy CRD instance
 ```yaml
